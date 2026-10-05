@@ -8,7 +8,7 @@ It combines a responsive web interface with Python scientific-computing librarie
 
 ## Features
 
-### 🧮 Algebra
+###  Algebra
 Solve and analyze algebraic expressions and equations.
 
 Supported operations include:
@@ -26,7 +26,7 @@ Example:
 
 ---
 
-### 📊 Statistics
+###  Statistics
 Perform common statistical calculations on numerical datasets.
 
 Supported operations:
@@ -43,7 +43,7 @@ Example:
 
 ---
 
-### 🔢 Matrices
+###  Matrices
 Perform common matrix operations using NumPy.
 
 Supported operations:
@@ -60,7 +60,7 @@ Example:
 
 ---
 
-### 📐 Numerical Methods
+###  Numerical Methods
 Solve numerical problems using iterative numerical techniques.
 
 Supported methods:
@@ -76,7 +76,7 @@ Example:
 
 ---
 
-### ⚛️ Scientific Formulas
+###  Scientific Formulas
 Calculate values using commonly used scientific and physics formulas.
 
 Supported formulas:
@@ -93,7 +93,7 @@ Example:
 
 ---
 
-### 📈 Graphing
+###  Graphing
 Plot mathematical functions using Matplotlib.
 
 Supported examples include:
