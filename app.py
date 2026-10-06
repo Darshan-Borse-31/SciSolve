@@ -2,6 +2,7 @@
 
 Run with:  python app.py   ->  http://127.0.0.1:5000
 """
+import os
 from flask import Flask, jsonify, render_template, request
 
 from backend import router
@@ -42,7 +43,7 @@ def too_large(_error):
 
 if __name__ == "__main__":
     # debug=True is for local development only. Turn it off before deploying.
-    import os
+    
 
 app.run(
     host="0.0.0.0",
