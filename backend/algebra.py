@@ -107,6 +107,12 @@ def _main_symbol(expr):
     return symbols[0] if symbols else None
 
 def _solve(expression_text):
+    if "=" not in expression_text:
+        raise ValueError(
+            "Please enter an equation using '='. "
+            "Example: Solve x^2 - 5x + 6 = 0"
+        )
+
     left, right = _equation_parts(expression_text)
     equation = sp.Eq(left, right)
     expr = sp.expand(left - right)
