@@ -43,10 +43,8 @@ def too_large(_error):
 
 if __name__ == "__main__":
     # debug=True is for local development only. Turn it off before deploying.
-    
-
-app.run(
-    host="0.0.0.0",
-    port=int(os.environ.get("PORT", 5000)),
-    debug=False
-)
+    app.run(
+        host="0.0.0.0",
+        port=int(os.environ.get("PORT", 5000)),
+        debug=False
+    )
